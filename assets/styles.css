@@ -1,0 +1,124 @@
+h1 {
+	font-family: "Open Sans";
+	font-size: 43px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	margin-bottom: 36px;
+	margin-top: 10px;
+}
+h3 {
+	font-family: "Open Sans";
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 26px;
+}
+
+.title-heading {
+	font-family: "Open Sans";
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 25px;
+}
+p {
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 22px;
+}
+footer {
+	text-align: center;
+}
+.main-image-container img {
+	max-height: 740px;
+}
+.thumbnail-container {
+	margin: 36px 0;
+}
+.thumbnail-container img {
+	max-width: 75px;
+	max-height: 75px;
+	margin-right: 10px;
+	float: right;
+}
+.thumbnail-container img:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+#video_caption_container { 
+	margin-top: 10px;
+	margin-left: 10px;
+	border-bottom: 1px solid rgb(208, 211,212);
+
+ }
+ #video_caption_container .title-heading, #image_title .title-heading { 
+
+ 		margin-bottom: 0px;
+
+
+  }
+#video_caption_container .caption, #image_title .caption {
+
+	margin: 4px 0 10px 0;
+}
+#video {
+	margin: 20px;
+}
+
+/* Tiles Page ****/
+
+.red-border { 
+	border-bottom: 4px solid rgb(223,70,97);
+ }
+ .green-border {
+ 	border-bottom: 4px solid rgb(107,165,57);
+ }
+  .blue-border {
+ 	border-bottom: 4px solid rgb(0,95,131);
+ }
+ section{
+ 	margin: 90px 0;
+ }
+ section h3 { 
+ 	padding-bottom: 10px;
+ 	margin: 0 0 24px 0;
+ }
+ section img {
+ 	max-height: 240px;
+ }
+ .content-wrapper {
+ 	margin: 10px 0;
+ }
+ p.cta {
+ 	margin: 24px 0;
+ }
+
+ /* Masonry CSS */
+ .grid {
+  background: #EEE;
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 220px;
+  padding: 10px;
+  float: left;
+  background: #fff;
+  border: 1px solid rgb(51,51,51);
+  margin: 28px;
+}
+
